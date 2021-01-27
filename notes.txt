@@ -1,0 +1,161 @@
+Blue: #25B8C6
+Purple: #401F34
+
+Components to build:
+Home:
+    - Navbar
+    - Photo Carousel
+    - Upcoming Events/Calendar
+    - Social Media Feeds
+    - Contact/Get in touch
+    - Footer
+
+Class Page:
+    - Navbar
+    - Dance info
+    - Dance "timetables"
+
+
+
+
+
+=== DATA ===
+const data = {
+
+    "danceTypes": {
+
+        "ballroomLatin": {
+            title: "Ballroom & Latin",
+            description: "" ,
+            imageLink: "",
+            cost: "10",
+            whatToBring: "n/a",
+            locations: ["kings lynn", "wisbech"],
+            categories: ["beginner", "beyond beginner"],
+            adults: true,
+            classes: [
+                {
+                    category: "beginner",
+                    day: "Tuesday",
+                    time: "7pm",
+                    location: "kings lynn",
+                    venueID: "2"
+                }
+            ]
+        },
+
+        "fitsteps": {
+            title: "Fitsteps",
+            description: "" ,
+            cost: "5",
+            whatToBring: "n/a",
+            locations: ["kings lynn"],
+            categories: [],
+            adults: true,
+            classes: [
+                {
+                    category: null,
+                    day: "Friday",
+                    time: "7am",
+                    location: "kings lynn",
+                    venueID: "2"
+                }
+            ]
+        },
+        "ballroomLatinKids": {
+            title: "Ballroom & Latin Kids",
+            description: "" ,
+            cost: "4",
+            whatToBring: "n/a",
+            locations: ["dersingham"],
+            categories: [],
+            adults: false,
+            classes: [
+                {
+                    category: null,
+                    day: "Thursday",
+                    time: "4pm",
+                    location: "dersingham",
+                    venueID: "1"
+                }
+            ]
+        },   
+    },
+
+    locations: [],
+
+    venues: {
+
+        "1": {
+            venueName: "Dersingham Village Hall",
+            venueAddress: "",
+            venuePostcode: "",
+            venueMapLink: ""
+        }
+
+    },
+
+    
+
+    
+
+}
+
+
+== API ==
+
+import {data} from './_data'
+
+const API = () => {
+
+    const getClassesFromDanceType = (danceType) => {
+        return data.danceType.classes
+    
+    
+    }
+
+    const getDanceType = (dt) => {
+        return data.danceType
+    }
+
+    const getVenueByID = (venueId) => {
+        return data.venue.venueId
+    }
+
+    // const getAllClasses = () => {
+
+    // } 
+
+
+    //TODO: API Methods to create
+/*
+
+    
+
+
+    
+
+    getClassesByAge(age)
+
+    getClassesByLocation(loc)
+
+    
+
+
+
+    updateDanceType(dt)
+    
+
+
+
+
+
+
+
+
+
+    */
+}
+
+
+export default API
