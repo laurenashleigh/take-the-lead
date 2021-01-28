@@ -3,15 +3,15 @@ import {Navbar, Nav, NavDropdown, Container} from 'react-bootstrap';
 
 const NavBar = () => {
     return (
-        <Container>
-            <Navbar bg="primary" variant="dark" expand="xl">
+        <Container fluid>
+            <Navbar bg="primary" variant="dark" expand="md">
                 <Navbar.Brand href="#home">
                     <img
                         alt="Take The Lead"
-                        width="90"
-                        height="40"
+                        width="50"
+                        height="50"
                         className="d-inline-block align-top"
-                        src="http://www.taketheleaddance.co.uk/images/take-the-lead-logo-big.png?crc=43471662"
+                        src="../images/Logo-No-Text.svg"
                     />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
