@@ -1,20 +1,16 @@
 import React from 'react';
-import { Nav } from 'react-bootstrap';
+import { ListGroup } from 'react-bootstrap';
 
 const NavSideBar = () => {
     return (
         <div className="side-nav">
-            <Nav defaultActiveKey="/home" className="flex-column">
-                <Nav.Link href="/home">Waltz</Nav.Link>
-                <hr />
-                <Nav.Link href="">Jive</Nav.Link>
-                <hr />
-                <Nav.Link href="">Quick Step</Nav.Link>
-                <hr />
-                <Nav.Link href="">Cha Cha</Nav.Link>
-                <hr />
-                <Nav.Link href="">Fox Trot</Nav.Link>
-            </Nav>
+            <ListGroup>
+                <ListGroup.Item action href="" >Waltz</ListGroup.Item>
+                <ListGroup.Item action href="" >Jive</ListGroup.Item>
+                <ListGroup.Item action href="">Quick Step</ListGroup.Item>
+                <ListGroup.Item action href="">Cha Cha</ListGroup.Item>
+                <ListGroup.Item action href="">Fox Trot</ListGroup.Item>
+            </ListGroup>
         </div>
         
     )
