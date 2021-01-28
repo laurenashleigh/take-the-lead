@@ -3,8 +3,8 @@ import {Navbar, Nav, NavDropdown, Container} from 'react-bootstrap';
 
 const NavBar = () => {
     return (
-        <Container>
-            <Navbar bg="primary" variant="dark">
+        <Container fluid>
+            <Navbar bg="primary" variant="dark" expand="lg">
                 <Navbar.Brand href="#home">
                     <img
                         alt="Take The Lead"
