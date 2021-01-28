@@ -1,10 +1,10 @@
 import React from 'react';
-import {Navbar, Nav, NavDropdown, Container} from 'react-bootstrap';
+import {Navbar, Nav, NavDropdown, Container, Image} from 'react-bootstrap';
 
 const NavBar = () => {
     return (
         <Container fluid>
-            <Navbar bg="primary" variant="dark" expand="md">
+            <Navbar bg="primary" variant="dark" expand="md" sticky="top">
                 <Navbar.Brand href="#home">
                     <img
                         alt="Take The Lead"
