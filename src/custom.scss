@@ -9,11 +9,10 @@
     padding: 50px;
 }
 
-.side-nav {
-    border:#401F34 solid 1px;
-    width:fit-content;
-    margin: 10px;
-
+.list-group-item:hover {
+    color:#ffffff !important;
+    font-size: 20px;
+    background-color: #401F34 !important;
 }
 
 $theme-colors: (

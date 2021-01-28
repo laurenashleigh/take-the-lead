@@ -1,13 +1,13 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
 import NavSideBar from '../components/NavSideBar';
+import {Container, Col} from 'react-bootstrap';
 
 const AboutUs = () => {
     return (
-        <div>
-            <NavBar />
-            <NavSideBar />
-        </div>
+        <Container>
+            <Col lg={3}><NavSideBar /></Col>
+            
+        </Container>
         
     )
 }
