@@ -1,9 +1,16 @@
 import React from 'react';
-import NavBar from './NavBar';
+import MediaFeed from '../components/MediaFeed';
+import NavBar from '../components/NavBar';
+import PhotoCarousel from '../components/PhotoCarousel';
 
 const Home = () => {
     return (
-        <NavBar />
+        <div>
+            <NavBar />
+            <PhotoCarousel />
+            <MediaFeed />
+        </div>
+        
     )
 }
 

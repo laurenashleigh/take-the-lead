@@ -1,9 +1,14 @@
 import React from 'react';
-import NavBar from '../pages/NavBar';
+import NavBar from '../components/NavBar';
+import NavSideBar from '../components/NavSideBar';
 
 const AboutUs = () => {
     return (
-        <NavBar />
+        <div>
+            <NavBar />
+            <NavSideBar />
+        </div>
+        
     )
 }
 export default AboutUs;

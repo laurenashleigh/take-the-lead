@@ -15,6 +15,9 @@ Class Page:
     - Dance info
     - Dance "timetables"
 
+About us/ Dances Page:
+    - 
+
 
 
 
