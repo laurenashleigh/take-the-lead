@@ -4,7 +4,7 @@ import {Navbar, Nav, NavDropdown, Container, Image} from 'react-bootstrap';
 const NavBar = () => {
     return (
         <Container fluid>
-            <Navbar bg="primary" variant="dark" expand="md" sticky="top">
+            <Navbar bg="primary" variant="dark" expand="md">
                 <Navbar.Brand href="#home">
                     <img
                         alt="Take The Lead"
@@ -12,6 +12,13 @@ const NavBar = () => {
                         height="50"
                         className="d-inline-block align-top"
                         src="../images/Logo-No-Text.svg"
+                    />
+                    <img
+                        alt="Take The Lead"
+                        width="150"
+                        height="25"
+                        className="d-inline-block align-top"
+                        src="../images/Logo-Text.svg"
                     />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

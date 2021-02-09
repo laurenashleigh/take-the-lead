@@ -17,7 +17,7 @@ const Home = () => {
                 <Col lg={1}></Col>
             </Row>
             <Row>
-                <Col lg={12}>
+                <Col sm={12}>
                     <h2 className="text-lg-center">Class Timetable & Booking</h2>
                 </Col>
                 
