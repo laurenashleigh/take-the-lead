@@ -1,7 +1,6 @@
-// .AppMain {
-//     margin-left: 10%;
-//     margin-right: 10%;
-// }
+.AppMain {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 // .media-feed {
 //     position: absolute;
@@ -13,10 +12,21 @@ body {
     margin: 0 auto;
 }
 
+.logo-title {
+    font-weight: 200;
+    color: #25B8C6;
+    font-size: 300;
+}
+
 .side-nav {
     border:#401F34 solid 1px;
     width:fit-content;
     margin: 10px;
+}
+
+.contact-jumbotron {
+    text-align: center;
+    border-radius: 2%;
 }
 
 .list-group-item:hover {
@@ -26,7 +36,7 @@ body {
 }
 
 $theme-colors: (
-    "info": tomato,
+    "info": #25B8C6,
     "danger": teal,
     "primary": #401F34,
 );

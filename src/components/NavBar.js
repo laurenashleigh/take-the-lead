@@ -6,20 +6,23 @@ const NavBar = () => {
         <Container fluid>
             <Navbar bg="primary" variant="dark" expand="md">
                 <Navbar.Brand href="#home">
-                    <img
-                        alt="Take The Lead"
-                        width="50"
-                        height="50"
-                        className="d-inline-block align-top"
-                        src="../images/Logo-No-Text.svg"
-                    />
-                    <img
-                        alt="Take The Lead"
-                        width="150"
-                        height="25"
-                        className="d-inline-block align-top"
-                        src="../images/Logo-Text.svg"
-                    />
+                    <span>
+                       <img
+                            alt="Take The Lead"
+                            width="60"
+                            height="60"
+                            className="d-inline-block align-top"
+                            src="../images/Logo-No-Text.svg"
+                        /> 
+                    </span>
+                    <span>
+                        <img
+                            alt="Take The Lead"
+                            height="40"
+                            className="d-inline-block align-top"
+                            src="../images/Logo-Text.svg"
+                        /> 
+                    </span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -33,7 +36,7 @@ const NavBar = () => {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="#action/3.4">Social Events</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="#contact">Contact Us</Nav.Link>
+                    <Nav.Link href="#contact-us">Contact Us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 </Navbar>
