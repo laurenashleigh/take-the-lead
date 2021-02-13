@@ -7,7 +7,7 @@ const PhotoCarousel = () => {
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src='../images/ballroom-edit-2.png'
+                src='../images/lindy 5 resized.jpg'
                 alt="First slide"
                 />
                 <Carousel.Caption>
@@ -18,7 +18,7 @@ const PhotoCarousel = () => {
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src="https://user-images.githubusercontent.com/194400/49531010-48dad180-f8b1-11e8-8d89-1e61320e1d82.png"
+                src="../images/rumba 1.jpg"
                 alt="Third slide"
                 />
 
@@ -30,7 +30,7 @@ const PhotoCarousel = () => {
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src="https://user-images.githubusercontent.com/194400/49531010-48dad180-f8b1-11e8-8d89-1e61320e1d82.png"
+                src="../images/rumba 6 resized.jpg"
                 alt="Third slide"
                 />
 
