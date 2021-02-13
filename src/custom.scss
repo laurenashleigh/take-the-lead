@@ -12,16 +12,31 @@ body {
     margin: 0 auto;
 }
 
+hr.line-break {
+    border: 1px solid #25B8C6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
 .logo-title {
     font-weight: 200;
     color: #25B8C6;
     font-size: 300;
 }
+.class-title {
+    color: #25B8C6;
+}
+.class-description {
+    color: #d3d3d3;
+}
 
 .side-nav {
     border:#401F34 solid 1px;
-    width:fit-content;
+    border-radius: 2%;
+    width:80%;
     margin: 10px;
+    text-align: center;
 }
 
 .contact-jumbotron {
@@ -29,6 +44,10 @@ body {
     border-radius: 2%;
 }
 
+.list-group-item {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
 .list-group-item:hover {
     color:#ffffff !important;
     font-size: 20px;

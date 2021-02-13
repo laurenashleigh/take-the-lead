@@ -5,11 +5,11 @@ const NavSideBar = () => {
     return (
         <div className="side-nav">
             <ListGroup>
-                <ListGroup.Item action href="" >Waltz</ListGroup.Item>
-                <ListGroup.Item action href="" >Jive</ListGroup.Item>
-                <ListGroup.Item action href="">Quick Step</ListGroup.Item>
-                <ListGroup.Item action href="">Cha Cha</ListGroup.Item>
-                <ListGroup.Item action href="">Fox Trot</ListGroup.Item>
+                <ListGroup.Item action href="#waltz" >Waltz</ListGroup.Item>
+                <ListGroup.Item action href="#jive" >Jive</ListGroup.Item>
+                <ListGroup.Item action href="#quick-step">Quick Step</ListGroup.Item>
+                <ListGroup.Item action href="#cha-cha">Cha Cha</ListGroup.Item>
+                <ListGroup.Item action href="#foxtrot">Fox Trot</ListGroup.Item>
             </ListGroup>
         </div>
         
