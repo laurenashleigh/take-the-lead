@@ -3,7 +3,7 @@ import {Navbar, Nav, NavDropdown, Container, Image} from 'react-bootstrap';
 
 const NavBar = () => {
     return (
-        <Container fluid>
+        // <Container fluid>
             <Navbar bg="primary" variant="dark" expand="md">
                 <Navbar.Brand href="#home">
                     <span>
@@ -42,7 +42,7 @@ const NavBar = () => {
                     </Nav>
                 </Navbar.Collapse>
                 </Navbar>
-        </Container>
+        //</Container>
     )
 }
 

@@ -1,6 +1,6 @@
 import {React, useState} from 'react';
 import {Jumbotron, Button, Container, Row, Col, Form } from 'react-bootstrap';
-
+import emailjs from 'emailjs-com'
 
 
 
@@ -10,6 +10,24 @@ const ContactUs = () => {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
 
+
+    const sendForm = (e) => {
+        e.preventDefault();
+
+        let templateParams = {
+            from_name: name,
+            from_email: email,
+            message: message
+        }
+
+        console.log(e.target)
+
+        emailjs.sendForm('service_0jzful4', 'template_sw7j4wd', e.target, 'user_bwDMlOBtHVgMcxnKo4V1E').then((result) => {
+            console.log(result)
+        }, (error) => {
+            console.log(error)
+        });
+    }
 
 
     return (
@@ -30,19 +48,19 @@ const ContactUs = () => {
                     </Col>
                     <Col md={4}></Col>
                 </Row>
-                <Form>
+                <Form onSubmit={sendForm}>
                     <Row>
                         <Col md={4}></Col>
                         <Col md={2}>
                             <Form.Group controlId="formName">
                                 <Form.Label>Name: </Form.Label>
-                                <Form.Control type="text" value={name} onChange={e => setName(e.target.value)}></Form.Control>
+                                <Form.Control name="from_name" type="text" value={name} onChange={e => setName(e.target.value)}></Form.Control>
                             </Form.Group>
                         </Col>
                         <Col md={2}>
                             <Form.Group>
                                 <Form.Label>Email Address: </Form.Label>
-                                <Form.Control type="text" value={email} onChange={e => setEmail(e.target.value)}></Form.Control>
+                                <Form.Control name="from_email" type="text" value={email} onChange={e => setEmail(e.target.value)}></Form.Control>
                             </Form.Group>
                         </Col>
                         <Col md={4}></Col>
@@ -52,7 +70,7 @@ const ContactUs = () => {
                         <Col md={6}>
                             <Form.Group>
                                 <Form.Label type="text" name="message">Message: </Form.Label>
-                                <Form.Control as="textarea" value={message} onChange={e => setMessage(e.target.value)}></Form.Control>
+                                <Form.Control name="message" as="textarea" value={message} onChange={e => setMessage(e.target.value)}></Form.Control>
                             </Form.Group>
                         </Col>
                         <Col md={3}></Col>
