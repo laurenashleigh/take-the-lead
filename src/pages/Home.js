@@ -24,9 +24,11 @@ const Home = () => {
                 <Col lg={1}></Col> 
             </Row>
             <Row>
-                <Col sm={12}>
+                <Col lg={4}></Col>
+                <Col sm={7} className="text-center">
                     <h2 className="text-lg-center">A bit about us</h2>
                 </Col>
+                <Col lg={1}></Col>
             </Row>
             <Row>
                 <Col lg={1}></Col>
@@ -34,15 +36,25 @@ const Home = () => {
                     {/* <Image src="../images/take-the-lead-logo-big.svg" rounded/> */}
                     <Image src="../images/ttl-logo-recreated.svg" rounded/>
                 </Col>
-                <Col lg={6} className="text-justify">
-                    
-                    <p>A Ballroom and Latin dance school based in King's Lynn, offering classes and private lessons around West Norfolk. From beginner to advanced and Medals we can help you to learn the basics, brush up your technique, create wedding dance choreography or learn some new sequence dances.</p>
-                    <p>We are now also offering Fitsteps Ballroom & Latin based dance exercise classes in Kings Lynn as well as Dancing Memories - chair based exercise and activity sessions for the residents of Care homes and small groups in Kings Lynn and the surrounding area.</p>
+                <Col lg={7} className="text-center">
+                                        
+                    <p>Fancy learning some Cheeky Cha Cha Cha, a Jumping Jive, a smooth Slow Foxtrot or whirling around the floor for a Waltz, then come along and join a class or have a private lesson with Val at one of our locations in Norfolk or Cambridgeshire and you’ll soon be dancing around the room alongside lots of other like-minded people.</p>
+                    <p>Whether you’re Beginners, Improvers, want to polish up your moves, learn to be a teacher yourself or create a truly memorable dance for your wedding or special occasion, come and take your first steps with us.</p>
+                    <p>We can take you from your very first steps to increasing your knowledge, gaining recognition through taking medals and on to teaching qualifications. The journey is yours and you choose how far you want to go.</p>
+
+                    <h4>Online or in the Studio</h4>
+                    <p>Classes and Workshops can be conducted via ZOOM, or in the Studio when lockdown restrictions are lifted, using COVID secure measures and ensuring compliance with government social distancing guidelines.</p>
+                    <p>Private Dance Lessons can be conducted safely via ZOOM or when COVID-19 restrictions allow, in the studio in person for couples and small groups from the same household/bubble.</p>
+                    <p>Due to the constantly changing situation, Val reserves the right to reschedule lessons and classes and your understanding and flexibility is appreciated.</p>
+
+                    <h4>Next Steps</h4>
+                    <p>Check out the class or lesson types available and the timetable for all classes and locations. Then click to book the ones you’d like to join or email Val at info@taketheleaddance.co.uk and she’ll be in contact to discuss your requirements and available booking slots for Private lessons. Payment is via Paypal when booked through the website. Email for bank details to pay via bank transfer.</p>
+                    <p>The timetable also lists monthly Dance nights when available</p>
                 </Col>
                 
                 
                 
-                <Col lg={2}></Col>
+                <Col lg={1}></Col>
             </Row>
             <Row>
                <Col lg={1}></Col>
