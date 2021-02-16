@@ -2,16 +2,17 @@ import React from 'react';
 
 import Calendar from '@ericz1803/react-google-calendar'
 
-const API_KEY = "AIzaSyC88E3t79v8qCfI1XIffIQPbfDLStXn08Y";
+const API_KEY = "";
 
 let calendars = [
-    {calendarId: "mbn1ve0oomloqsj4fafciacuao@group.calendar.google.com"}
+    {calendarId: ""}
   ];
 
 const GoogleCalendar = () => {
     return (
         <>
-            <Calendar apiKey={API_KEY} calendars={calendars}/>
+            {/* <Calendar apiKey={API_KEY} calendars={calendars}/> */}
+            {/* <iframe src="https://calendar.google.com/calendar/embed?src=n10aprm17di2oamle2m0irii0g%40group.calendar.google.com&ctz=Europe%2FLondon"  width="100%" height="600" frameborder="0" scrolling="no"></iframe> */}
         </>
 
     )
