@@ -27,12 +27,10 @@ const Home = () => {
             <Row>
                 
                 <Col lg={1}></Col>
-                <Col lg={8}>
+                <Col lg={10}>
                     <GoogleCalendar/>
                 </Col>
-                <Col lg={2}>
-                    <MediaFeed />
-                </Col>
+                
                 
                 
                 <Col lg={1}></Col>
