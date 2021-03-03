@@ -1,8 +1,5 @@
 import React from 'react';
-import MediaFeed from '../components/MediaFeed';
-import NavBar from '../components/NavBar';
 import PhotoCarousel from '../components/PhotoCarousel';
-import GoogleCalendar from '../components/GoogleCalendar'
 import {Container, Row, Col, Image} from 'react-bootstrap'
 import ContactUs from '../components/ContactUs';
 

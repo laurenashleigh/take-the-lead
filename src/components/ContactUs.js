@@ -1,5 +1,5 @@
 import {React, useState} from 'react';
-import {Jumbotron, Button, Container, Row, Col, Form } from 'react-bootstrap';
+import {Jumbotron, Row, Col, Form } from 'react-bootstrap';
 import emailjs from 'emailjs-com'
 
 
@@ -14,11 +14,11 @@ const ContactUs = () => {
     const sendForm = (e) => {
         e.preventDefault();
 
-        let templateParams = {
-            from_name: name,
-            from_email: email,
-            message: message
-        }
+        // let templateParams = {
+        //     from_name: name,
+        //     from_email: email,
+        //     message: message
+        // }
 
         console.log(e.target)
 
