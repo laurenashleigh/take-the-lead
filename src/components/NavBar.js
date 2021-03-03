@@ -30,15 +30,9 @@ const NavBar = () => {
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/about">About Us</Nav.Link>
                     <NavDropdown title="Classes" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Ballroom & Latin</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Fitsteps</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Children's Classes</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">Private Lessons</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.5">Workshops</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.6">Dance Nights</NavDropdown.Item>
+                        <NavDropdown.Item href="/classes">Class list and timetable</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="#contact-us">Contact Us</Nav.Link>
+                    <Nav.Link href="/#contact-us">Contact Us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 </Navbar>

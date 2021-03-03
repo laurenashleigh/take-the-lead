@@ -4,30 +4,20 @@ import {Container, Row, Col} from 'react-bootstrap';
 const AboutClass = () => {
     return (
         <Container fluid>
-            <Row id="waltz">
-                <h4 className="class-title">Waltz</h4>
-                <p className="class-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis sagittis sapien nec lacinia. Quisque condimentum est in scelerisque venenatis. Maecenas blandit feugiat enim sit amet porttitor. Nullam nec leo lorem. Suspendisse convallis rhoncus pellentesque. Nam id nisi nulla. Aliquam nunc purus, maximus nec tempor in, ornare eget dolor. Curabitur eu nunc sem. Quisque dignissim id diam eget varius. Integer ullamcorper orci ac accumsan congue.</p>
-            </Row>
+                <h4 className="class-title" id="ballroom">Ballroom and Latin</h4>
+                <p className="class-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> <strong>What to bring:</strong> Vestibulum lobortis sagittis sapien nec lacinia. <br /> <strong>Locations:</strong> Quisque condimentum est in scelerisque venenatis. <br /> <strong>Price: </strong>Maecenas blandit feugiat enim sit amet porttitor. Nullam nec leo lorem. Suspendisse convallis rhoncus pellentesque. Nam id nisi nulla.</p>
+            <hr className="line-break"/>
+                <h4 className="class-title" id="ballroom-kids">Ballroom and Latin KIDS</h4>
+                <p className="class-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> What to bring: Vestibulum lobortis sagittis sapien nec lacinia. <br /> Locations: Quisque condimentum est in scelerisque venenatis. <br /> Price: Maecenas blandit feugiat enim sit amet porttitor. Nullam nec leo lorem. Suspendisse convallis rhoncus pellentesque. Nam id nisi nulla.</p>
             <hr className="line-break"/>  
-            <Row id="jive">
-                <h4 className="class-title">Jive</h4>
-                <p className="class-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis sagittis sapien nec lacinia. Quisque condimentum est in scelerisque venenatis. Maecenas blandit feugiat enim sit amet porttitor. Nullam nec leo lorem. Suspendisse convallis rhoncus pellentesque. Nam id nisi nulla. Aliquam nunc purus, maximus nec tempor in, ornare eget dolor. Curabitur eu nunc sem. Quisque dignissim id diam eget varius. Integer ullamcorper orci ac accumsan congue.</p>
-            </Row>
+                <h4 className="class-title" id="fitsteps">Fitsteps</h4>
+                <p className="class-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> What to bring: Vestibulum lobortis sagittis sapien nec lacinia. <br /> Locations: Quisque condimentum est in scelerisque venenatis. <br /> Price: Maecenas blandit feugiat enim sit amet porttitor. Nullam nec leo lorem. Suspendisse convallis rhoncus pellentesque. Nam id nisi nulla.</p>
             <hr className="line-break"/>  
-            <Row id="quick-step">
-                <h4 className="class-title">Quick Step</h4>
-                <p className="class-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis sagittis sapien nec lacinia. Quisque condimentum est in scelerisque venenatis. Maecenas blandit feugiat enim sit amet porttitor. Nullam nec leo lorem. Suspendisse convallis rhoncus pellentesque. Nam id nisi nulla. Aliquam nunc purus, maximus nec tempor in, ornare eget dolor. Curabitur eu nunc sem. Quisque dignissim id diam eget varius. Integer ullamcorper orci ac accumsan congue.</p>
-            </Row>
+                <h4 className="class-title" id="sequence">Sequence</h4>
+                <p className="class-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> What to bring: Vestibulum lobortis sagittis sapien nec lacinia. <br /> Locations: Quisque condimentum est in scelerisque venenatis. <br /> Price: Maecenas blandit feugiat enim sit amet porttitor. Nullam nec leo lorem. Suspendisse convallis rhoncus pellentesque. Nam id nisi nulla.</p>
             <hr className="line-break"/>  
-            <Row id="cha-cha">
-                <h4 className="class-title">Cha Cha</h4>
-                <p className="class-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis sagittis sapien nec lacinia. Quisque condimentum est in scelerisque venenatis. Maecenas blandit feugiat enim sit amet porttitor. Nullam nec leo lorem. Suspendisse convallis rhoncus pellentesque. Nam id nisi nulla. Aliquam nunc purus, maximus nec tempor in, ornare eget dolor. Curabitur eu nunc sem. Quisque dignissim id diam eget varius. Integer ullamcorper orci ac accumsan congue.</p>
-            </Row>
-            <hr className="line-break"/>  
-            <Row id="foxtrot">
-                <h4 className="class-title">FoxTrot</h4>
-                <p className="class-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis sagittis sapien nec lacinia. Quisque condimentum est in scelerisque venenatis. Maecenas blandit feugiat enim sit amet porttitor. Nullam nec leo lorem. Suspendisse convallis rhoncus pellentesque. Nam id nisi nulla. Aliquam nunc purus, maximus nec tempor in, ornare eget dolor. Curabitur eu nunc sem. Quisque dignissim id diam eget varius. Integer ullamcorper orci ac accumsan congue.</p>
-            </Row>
+                <h4 className="class-title" id="social">Social Events</h4>
+                <p className="class-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> What to bring: Vestibulum lobortis sagittis sapien nec lacinia. <br /> Locations: Quisque condimentum est in scelerisque venenatis. <br /> Price: Maecenas blandit feugiat enim sit amet porttitor. Nullam nec leo lorem. Suspendisse convallis rhoncus pellentesque. Nam id nisi nulla.</p>
         </Container>
     )
 }

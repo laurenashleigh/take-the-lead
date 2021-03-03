@@ -11,8 +11,7 @@ const PhotoCarousel = () => {
                 alt="First slide"
                 />
                 <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h4>We offer classes and private lessons around West Norfolk.</h4>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -23,8 +22,7 @@ const PhotoCarousel = () => {
                 />
 
                 <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h4>From Beginner to Advanced and Medals.</h4>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -35,8 +33,7 @@ const PhotoCarousel = () => {
                 />
 
                 <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h4>We can help you to learn the basics, perfect your technique or choreograph a wedding dance.</h4>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

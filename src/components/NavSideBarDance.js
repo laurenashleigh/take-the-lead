@@ -1,7 +1,7 @@
 import React from 'react';
 import { ListGroup } from 'react-bootstrap';
 
-const NavSideBar = () => {
+const NavSideBarDance = () => {
     return (
         <div className="side-nav">
             <ListGroup>
@@ -16,4 +16,4 @@ const NavSideBar = () => {
     )
 }
 
-export default NavSideBar;
+export default NavSideBarDance;
