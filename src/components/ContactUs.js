@@ -10,15 +10,10 @@ const ContactUs = () => {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
 
-
     const sendForm = (e) => {
         e.preventDefault();
 
-        // let templateParams = {
-        //     from_name: name,
-        //     from_email: email,
-        //     message: message
-        // }
+        
 
         console.log(e.target)
 
@@ -27,6 +22,10 @@ const ContactUs = () => {
         }, (error) => {
             console.log(error)
         });
+
+        setName('');
+        setEmail('');
+        setMessage('');
     }
 
 
