@@ -17,6 +17,15 @@ const ClassPage = () => {
                     <Col lg={1}></Col> 
                 </Row>
                 <Row>
+                    <Col lg={1}></Col>
+                    <Col lg={10}>
+                    <hr className="line-break"/> 
+                    <p>Book a class by clicking the event in the calendar and ... <br/>Or simply have a browse...</p>
+                    <GoogleCalendar id="google-calendar"/>   
+                    </Col>
+                    <Col lg={1}></Col> 
+                </Row>
+                <Row>
                 <Col lg={1}></Col>
                     <Col lg={10}>
                     <hr className="line-break"/>    
@@ -30,14 +39,6 @@ const ClassPage = () => {
                     </Col>
                     <Col lg={7}><AboutClass /></Col>
                     <Col lg={1}></Col>
-                </Row>
-                <Row>
-                    <Col lg={1}></Col>
-                    <Col lg={10}>
-                    <hr className="line-break"/> 
-                    <GoogleCalendar id="google-calendar"/>   
-                    </Col>
-                    <Col lg={1}></Col> 
                 </Row>
             </Container>
             <Footer />

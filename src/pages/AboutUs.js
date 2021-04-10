@@ -11,16 +11,29 @@ const AboutUs = () => {
                 <Row>
                 <Col lg={1}></Col>
                     <Col lg={10}>
-                        <h1 className="classes-header">About Us</h1> 
-                        <h4>PLACEHOLDER</h4>  
-                        <p>Insert picture of Val's face here</p>
+                        <h1 className="classes-header">About Us</h1>
+                        <div className="about-us-block">
+                        <span>
+                            <img 
+                                src="../images/val-square.png"
+                                alt="val kershaw"
+                                width="300"
+                                height="300"
+                            />
+                        </span>
+                        <span className="about-us-text">
+                            <h4>Val Kershaw</h4>  
+                            <p>I am an Associate in Ballroom & Latin with the IDTA .  I was born into a dancing family and so have danced for a very long time.  I started the dance school 5 years ago and have been delighted with the enthusiasm of all of you that have attended. My aim has always been to see people having fun and a great social experience through dance and music and I see just that from children through to the oldest of my dancers. Come along and join the fun!</p>
+                        </span>
+                        </div>
                     </Col>
                     <Col lg={1}></Col>
                 </Row>
                 <Row>
                 <Col lg={1}></Col>
                     <Col lg={10}>
-                    <hr className="line-break"/>    
+                    <hr className="line-break"/>  
+                    <h1 className="classes-header">Our Dances</h1>   
                     </Col>
                     <Col lg={1}></Col> 
                 </Row>

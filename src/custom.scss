@@ -51,8 +51,8 @@ hr.line-break {
 }
 
 .list-group-item {
-    padding-top: 30px !important;
-    padding-bottom: 30px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
 }
 .list-group-item:hover {
     color:#ffffff !important;
@@ -68,6 +68,14 @@ hr.line-break {
     word-wrap: break-word;
     text-align: start;
     padding: 10px;
+}
+
+.about-us-block {
+    display: flex;
+}
+
+.about-us-text {
+    padding-left: 30px;
 }
 
 $theme-colors: (
