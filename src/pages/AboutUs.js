@@ -3,22 +3,22 @@ import NavSideBarDance from '../components/NavSideBarDance';
 import {Container, Row, Col} from 'react-bootstrap';
 import AboutDance from '../components/AboutDance';
 import Footer from '../components/Footer';
+import ScrollToTop from '../components/ScrollToTop';
 
 const AboutUs = () => {
     return (
-        <div>
-            <Container fluid>
+        <div className="about-us-container">
+            <Container fluid >
                 <Row>
                 <Col lg={1}></Col>
                     <Col lg={10}>
                         <h1 className="classes-header">About Us</h1>
                         <div className="about-us-block">
-                        <span>
+                        <span >
                             <img 
                                 src="../images/val-square.png"
                                 alt="val kershaw"
-                                width="300"
-                                height="300"
+                                className="about-us-image rounded"
                             />
                         </span>
                         <span className="about-us-text">
@@ -48,6 +48,7 @@ const AboutUs = () => {
                 <Row>
 
                 </Row>
+                <ScrollToTop />
             </Container>
             <Footer />
         </div>

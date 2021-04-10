@@ -70,12 +70,40 @@ hr.line-break {
     padding: 10px;
 }
 
-.about-us-block {
-    display: flex;
-}
+@media only screen and (min-width: 600px) {
+    .about-us-block {
+        display: flex;
+    }
+    
+    .about-us-text {
+        padding-left: 30px;
+    }
+    
+    .about-us-image {
+        max-width: 300px;
+        height: auto;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .about-us-image {
+        width: 80%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .about-us-block {
+        text-align: center;
+    }
+  }
 
-.about-us-text {
-    padding-left: 30px;
+.scroll-button {
+    position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+.top {
+    position: fixed;
+  bottom: 15px;
+  right: 15px;
 }
 
 $theme-colors: (

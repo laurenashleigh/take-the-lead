@@ -4,6 +4,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 import AboutClass from '../components/AboutClass';
 import Footer from '../components/Footer';
 import GoogleCalendar from './GoogleCalendar';
+import ScrollToTop from './ScrollToTop';
 
 const ClassPage = () => {
     return (
@@ -40,6 +41,7 @@ const ClassPage = () => {
                     <Col lg={7}><AboutClass /></Col>
                     <Col lg={1}></Col>
                 </Row>
+                <ScrollToTop />
             </Container>
             <Footer />
         </div>
