@@ -34,6 +34,7 @@ const NavBar = () => {
                     <NavDropdown title="Classes" id="basic-nav-dropdown">
                         <NavDropdown.Item href="/classes">Class list and timetable</NavDropdown.Item>
                     </NavDropdown>
+                    <Nav.Link href="/booking">Prices and Booking</Nav.Link>
                     <Nav.Link href="/#contact-us">Contact Us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
