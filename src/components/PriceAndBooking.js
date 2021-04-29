@@ -23,7 +23,7 @@ const PriceAndBooking = () => {
                 </tr>
                 <tr>
                     <td>Children's classes</td>
-                    <td>£4.00 (payable half termly in advance</td>
+                    <td>£4.00 (payable half termly in advance)</td>
                 </tr>
                 <tr>
                     <td>Dance nights</td>

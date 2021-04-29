@@ -31,7 +31,7 @@ const Home = () => {
                 <Col lg={1}></Col>
                 <Col lg={3} className="text-center">
                     {/* <Image src="../images/take-the-lead-logo-big.svg" rounded/> */}
-                    <Image src="../images/ttl-logo-recreated.svg" rounded/>
+                    <Image className="logo-home" src="../images/logo2.jpeg" rounded/>
                 </Col>
                 <Col lg={7} className="text-center">
                     <div className="about-us-description">
