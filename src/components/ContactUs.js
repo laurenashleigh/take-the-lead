@@ -44,7 +44,7 @@ const ContactUs = () => {
                     <Col md={3}></Col>
                     <Col md={6}>
                         <p>For enquiries or bookings please contact fill out the form and we'll get back to you.</p>
-                        <p><em>For booking requests, please specific the date and time of chosen class.</em></p>
+                        <p><em>For booking requests, please specify the date and time of chosen class.</em></p>
                     </Col>
                     <Col md={3}></Col>
                 </Row>

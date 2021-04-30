@@ -27,7 +27,7 @@ const PriceAndBooking = () => {
                 </tr>
                 <tr>
                     <td>Dance nights</td>
-                    <td>£6.00</td>
+                    <td>price as advertised for the event</td>
                 </tr>
                 <tr>
                     <td>Fitsteps</td>
