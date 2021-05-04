@@ -7,7 +7,7 @@ const PhotoCarousel = () => {
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src='../images/lindy 5 resized.jpg'
+                src='../images/lindy.jpg'
                 alt="First slide"
                 />
                 <Carousel.Caption>
@@ -17,7 +17,7 @@ const PhotoCarousel = () => {
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src="../images/rumba 1.jpg"
+                src="../images/rumba1.jpg"
                 alt="Third slide"
                 />
 
