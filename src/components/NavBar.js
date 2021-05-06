@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         // <Container fluid>
             <Navbar bg="primary" variant="dark" expand="md">
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="/">
                     <span>
                        <img
                             alt="Take The Lead"
