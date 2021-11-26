@@ -33,7 +33,22 @@ const Footer = () => {
         </MDBRow>
       </MDBContainer> */}
       <div className="footer-copyright text-center py-3">
-        <MDBContainer fluid>
+
+        <a className="facebook-icon" href="https://www.facebook.com/taketheleaddance" target="_blank">
+          <img
+            src="../images/facebook.png"
+            alt="facebook"
+            height="40px"
+          />
+        </a>
+        <a href="https://www.instagram.com/taketheleadballroom/" target="_blank">
+          <img
+            src="../images/instagram.png"
+            alt="instagram"
+            height="42px"
+          />
+        </a>
+        <MDBContainer fluid className="copyright-container">
           &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> Take The Lead Dance </a>
         </MDBContainer>
       </div>

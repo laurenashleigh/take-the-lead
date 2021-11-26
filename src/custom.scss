@@ -119,6 +119,15 @@ hr.line-break {
   right: 15px;
 }
 
+.copyright-container {
+    display: flex;
+    justify-content: end;
+}
+
+.facebook-icon {
+    padding-right: 20px;
+}
+
 $theme-colors: (
     "info": #25B8C6,
     "danger": teal,

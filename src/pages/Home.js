@@ -2,9 +2,11 @@ import React from 'react';
 import PhotoCarousel from '../components/PhotoCarousel';
 import {Container, Row, Col, Image} from 'react-bootstrap';
 import ContactUs from '../components/ContactUs';
+import Footer from '../components/Footer';
 
 const Home = () => {
     return (
+        <>
         <Container fluid>
             <Row>
                 <Col lg={1} sm={0}></Col>
@@ -71,6 +73,8 @@ const Home = () => {
                 <Col lg={1}></Col>
             </Row>
         </Container>
+        <Footer />
+        </>
         
     )
 }
