@@ -8,7 +8,7 @@ const PriceAndBooking = () => {
         <h1 className="pricing-header">Prices and Booking</h1>
         <hr />
         <h3>Prices</h3>
-        <p>Classes are for 45-1hr and must be booked and paid for in advance as places are limited (particularly so in the current situation)</p>
+        <p>Classes are for 1hr - 90mins and must be booked and paid for in advance.</p>
         <Table bordered hover>
             <thead>
                 <tr>
@@ -19,11 +19,11 @@ const PriceAndBooking = () => {
             <tbody>
                 <tr>
                     <td>Adult classes</td>
-                    <td>£6.00</td>
+                    <td>£6.50</td>
                 </tr>
                 <tr>
                     <td>Children's classes</td>
-                    <td>£4.00 (payable half termly in advance)</td>
+                    <td>£4.50 (payable half termly in advance)</td>
                 </tr>
                 <tr>
                     <td>Dance nights</td>
@@ -31,11 +31,11 @@ const PriceAndBooking = () => {
                 </tr>
                 <tr>
                     <td>Fitsteps</td>
-                    <td>£6.00</td>
+                    <td>£6.50</td>
                 </tr>
                 <tr>
                     <td>Medal Class</td>
-                    <td>£6.00</td>
+                    <td>£6.50 (1hr) | £9 (90min)</td>
                 </tr>
                 <tr>
                     <td>Workshop (2hrs)</td>
@@ -43,7 +43,7 @@ const PriceAndBooking = () => {
                 </tr>
                 <tr>
                     <td>Workshop (3hrs)</td>
-                    <td>£20.00 (£35 er couple)</td>
+                    <td>£20.00 (£35 per couple)</td>
                 </tr>
                 <tr>
                     <td>Tea dance</td>
@@ -51,7 +51,7 @@ const PriceAndBooking = () => {
                 </tr>
                 <tr>
                     <td>Private lesson</td>
-                    <td>£35.00 per hour</td>
+                    <td>£37.00 per hour (£40 from 1st Nov 2022)</td>
                 </tr>
                 <tr>
                     <td>Music/ tuition for events</td>

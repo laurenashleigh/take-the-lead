@@ -23,7 +23,7 @@ const AboutUs = () => {
                         </span>
                         <span className="about-us-text">
                             <h4>Val Kershaw</h4>  
-                            <p>I am an Associate in Ballroom & Latin with the IDTA .  I was born into a dancing family and so have danced for a very long time.  I started the dance school 5 years ago and have been delighted with the enthusiasm of all of you that have attended. My aim has always been to see people having fun and a great social experience through dance and music and I see just that from children through to the oldest of my dancers. Come along and join the fun!</p>
+                            <p>I am an Associate in Ballroom, Latin &amp; Argentine Tango with the IDTA.  I was born into a dancing family and so have danced for a very long time.  I started the dance school a number of years ago and have been delighted with the enthusiasm of all of you that have attended. My aim has always been to see people having fun and a great social experience through dance and music and I see just that from children through to the oldest of my dancers. Come along and join the fun!</p>
                         </span>
                         </div>
                     </Col>

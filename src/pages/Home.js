@@ -41,14 +41,19 @@ const Home = () => {
                         <p>Whether you’re Beginners, Improvers, want to polish up your moves, learn to be a teacher yourself or create a truly memorable dance for your wedding or special occasion, come and take your first steps with us.</p>
                         <p>We can take you from your very first steps to increasing your knowledge, gaining recognition through taking medals and on to teaching qualifications. The journey is yours and you choose how far you want to go.</p>
 
-                        <h4>Online or in the Studio</h4>
-                        <p>Classes are offered in Dersingham, Kings Lynn and Upwell with Private lessons also available in Kings Lynn.  Different locations may be added in the future</p>
-                        <p>Classes and Workshops can be conducted via ZOOM, or in the Studio when lockdown restrictions are lifted, using COVID secure measures and ensuring compliance with government social distancing guidelines.</p>
-                        <p>Private Dance Lessons can be conducted safely via ZOOM or when COVID-19 restrictions allow, in the studio in person for couples and small groups from the same household/bubble.</p>
-                        <p>Due to the constantly changing situation, Val reserves the right to reschedule lessons and classes and your understanding and flexibility is appreciated.</p>
+                        <h4>Classes</h4>
+                        <p>Classes are offered in Dersingham, Kings Lynn and Upwell in a variety of Styles
+                            including Ballroom, Latin, Argentine Tango and Jive/Lindyhop, Swing. Different
+                            class locations may be added in the future
+                        </p>
+                        <h4>Private lessons</h4>
+                        <p>These are available in Kings Lynn on Saturday mornings but may also be available
+                            during the daytime on weekdays by arrangement and will be quoted for
+                            individually based on location and venue.
+                        </p>
 
                         <h4>Next Steps</h4>
-                        <p>Check out the class or lesson types available and the timetable for all classes and locations. Then click on and complete the contact form and Val will be in touch to discuss your requirements and available places for whichever classes, workshops, events or private lessons you are interested in. Payment is via Paypal or via bank transfer.  Details will be given when availability is confirmed.</p>
+                        <p>Check out the class or lesson types available and the timetable for all classes and locations. Then click on and complete the contact form and Val will be in touch to discuss your requirements and available places for whichever classes, workshops, events or private lessons you are interested in. Details will be given when availability is confirmed.</p>
                         <p>The timetable also lists monthly Dance nights, Workshops and other events when available.</p>
                     </div>
                     
