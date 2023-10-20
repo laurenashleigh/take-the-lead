@@ -8,7 +8,7 @@ const PriceAndBooking = () => {
         <h1 className="pricing-header">Prices and Booking</h1>
         <hr />
         <h3>Prices</h3>
-        <p>Classes are for 1hr - 90mins and must be booked and paid for in advance.</p>
+        <p>Classes are for 1hr - 90mins | payments can be made on the night using cash or card or by the purchase of a dance card</p>
         <Table bordered hover>
             <thead>
                 <tr>
@@ -18,28 +18,28 @@ const PriceAndBooking = () => {
             </thead>
             <tbody>
                 <tr>
-                    <td>Adult classes</td>
-                    <td>£6.50</td>
+                    <td>Adult 1hr classes</td>
+                    <td>£6.50 (From January 2024 -  Per person per night £7.50 single class | £13 for two classes | £18 for three classes)</td>
                 </tr>
                 <tr>
                     <td>Children's classes</td>
-                    <td>£4.50 (payable half termly in advance)</td>
+                    <td>Price as advertised in class timetable when classes are available</td>
                 </tr>
                 <tr>
                     <td>Dance nights</td>
-                    <td>price as advertised for the event</td>
+                    <td>Price as advertised for the event</td>
                 </tr>
                 <tr>
-                    <td>Fitsteps</td>
-                    <td>£6.50</td>
+                    <td>Improvers class (90min)</td>
+                    <td>£10</td>
                 </tr>
                 <tr>
                     <td>Medal Class</td>
-                    <td>£6.50 (1hr) | £9 (90min)</td>
+                    <td>£6.50, 1hr | £9, 90min (From January 2024 - £7.5, 1hr | £10, 90min)</td>
                 </tr>
                 <tr>
                     <td>Workshop (2hrs)</td>
-                    <td>£15.00 (£25 per couple)</td>
+                    <td>£15.00 | £25 per couple (From January 2024 - per person £18 | per couple £30)</td>
                 </tr>
                 <tr>
                     <td>Workshop (3hrs)</td>
@@ -50,8 +50,12 @@ const PriceAndBooking = () => {
                     <td>price as advertised for the event</td>
                 </tr>
                 <tr>
-                    <td>Private lesson</td>
-                    <td>£37.00 per hour (£40 from 1st Nov 2022)</td>
+                    <td>Private lesson (1hr)</td>
+                    <td>£40 (£42 from Jan 2024)</td>
+                </tr>
+                <tr>
+                    <td>Jive Class</td>
+                    <td>£6.50, 1hr | £10, 90min (From January 2024 - £7.5, 1hr | £10, 90min)</td>
                 </tr>
                 <tr>
                     <td>Music/ tuition for events</td>

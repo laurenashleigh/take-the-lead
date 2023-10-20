@@ -16,8 +16,8 @@ const AboutClass = () => {
                 <h4 className="class-title" id="sequence">Sequence</h4>
                 <p className="class-description">In these classes we learn Sequence dances in a number of different styles from the most popular to the latest ones created.  Sequence dances are set routines that repeat every 16 bars of music and that everyone dances in the same direction around the floor.  They are popular as each partner learns their own set steps and so there is no freestyling element to worry about.</p>
             <hr className="line-break"/>  
-                <h4 className="class-title" id="fitsteps">Fitsteps Dance Fitness</h4>
-                <p className="class-description">A great opportunity to get fit with no partner required.  Taking steps from all the Ballroom & Latin dances as well as other genres and adding in some fitness moves, these classes are fun and give you a great workout.  Classes may be available in either Fitsteps FAN (higher energy & impact) or Fitsteps FAB (lower energy and impact) </p>
+                <h4 className="class-title" id="fitsteps">Improvers Class</h4>
+                <p className="class-description">This class is for those who have gained knowledge through Beginner and Beyond Beginner classes and would like to continue to learn and add more complex and interesting steps to their repertoire as well as improve technique </p>
                 <hr className="line-break"/>  
                 <h4 className="class-title" id="medal">Medal Classes</h4>
                 <p className="class-description">This is an opportunity to take your dancing further and get recognition for your efforts.  We can work through the many possible exam levels in a variety of both Ballroom & Latin dances as well some additional stand-alone ones such as the Viennese Waltz and the Argentine Tango.</p>
@@ -29,10 +29,10 @@ const AboutClass = () => {
                 <p className="class-description">If you’d like to work on something specific, would like to build a little confidence before joining a class, have private tuition for exam work, develop a dance for your wedding or special event, the private lessons may be for you.  These are offered on Saturday mornings in Kings Lynn. Contact us for availability.</p>
                 <hr className="line-break"/>  
                 <h4 className="class-title" id="dance-nights">Dance Nights</h4>
-                <p className="class-description">Once a month at one or more of our locations we hold dance nights which are open to everyone of all levels to just come along and enjoy the social aspect of dance, meet and make friends, practice and just generally have a good time.(These will be on again when COVID restrictions permit)</p>
+                <p className="class-description">Once a month at one or more of our locations we hold dance nights which are open to everyone of all levels to just come along and enjoy the social aspect of dance, meet and make friends, practice and just generally have a good time.</p>
                 <hr className="line-break"/>  
                 <h4 className="class-title" id="tea-dance">Tea Dances</h4>
-                <p className="class-description">A new addition, we will be organising periodic afternoon tea dances, either with or without a theme (usually 1940/1950’s if themed) so look out for those in the calendar.  These will include a mini afternoon tea.</p>
+                <p className="class-description">A new addition, we will be organising periodic afternoon tea dances, either with or without a theme (usually 1940/1950’s if themed) so look out for those in the calendar.</p>
                 <hr className="line-break"/>  
                 <h4 className="class-title" id="dance-holidays">Dance Holidays</h4>
                 <p className="class-description">Sometimes we organise to go as a group on a dance break. A brilliant way of getting away, doing what we love and for single people who may not like to go alone this is a great way of being with familiar and new faces and there’s always someone to dance with. Make sure we have your email address so you hear about the latest events.</p>
