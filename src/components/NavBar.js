@@ -32,7 +32,8 @@ const NavBar = () => {
                         <NavDropdown.Item href="/about">About us and our dances</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Classes" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="/classes">Class list and timetable</NavDropdown.Item>
+                        <NavDropdown.Item href="/classes">Class list</NavDropdown.Item>
+                        <NavDropdown.Item href="/calendar">Class timetable</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href="/booking">Prices and Booking</Nav.Link>
                     <Nav.Link href="/#contact-us">Contact Us</Nav.Link>

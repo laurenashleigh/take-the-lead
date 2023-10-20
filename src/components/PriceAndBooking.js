@@ -65,7 +65,7 @@ const PriceAndBooking = () => {
         </Table>
         <hr />
         <h3>Booking</h3>
-        <p>To book a class, choose a date and time using <a style={{color: '#25B8C6', textDecoration: 'underline'}} href="/classes#google-calendar">our calendar </a>then fill in <a style={{color: '#25B8C6', textDecoration: 'underline'}} href="/#contact-us">our contact form</a> to reserve a place</p>
+        <p>To book a class, choose a date and time using <a style={{color: '#25B8C6', textDecoration: 'underline'}} href="/calendar#google-calendar">our calendar </a>then fill in <a style={{color: '#25B8C6', textDecoration: 'underline'}} href="/#contact-us">our contact form</a> to reserve a place</p>
     </div>
     )
 }

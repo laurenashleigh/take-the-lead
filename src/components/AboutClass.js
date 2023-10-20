@@ -16,7 +16,7 @@ const AboutClass = () => {
                 <h4 className="class-title" id="sequence">Sequence</h4>
                 <p className="class-description">In these classes we learn Sequence dances in a number of different styles from the most popular to the latest ones created.  Sequence dances are set routines that repeat every 16 bars of music and that everyone dances in the same direction around the floor.  They are popular as each partner learns their own set steps and so there is no freestyling element to worry about.</p>
             <hr className="line-break"/>  
-                <h4 className="class-title" id="fitsteps">Improvers Class</h4>
+                <h4 className="class-title" id="improvers">Improvers Class</h4>
                 <p className="class-description">This class is for those who have gained knowledge through Beginner and Beyond Beginner classes and would like to continue to learn and add more complex and interesting steps to their repertoire as well as improve technique </p>
                 <hr className="line-break"/>  
                 <h4 className="class-title" id="medal">Medal Classes</h4>

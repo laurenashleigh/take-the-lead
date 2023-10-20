@@ -15,17 +15,20 @@ const ContactUs = () => {
 
         
 
-        console.log(e.target)
-
         emailjs.sendForm('service_0jzful4', 'template_sw7j4wd', e.target, 'user_bwDMlOBtHVgMcxnKo4V1E').then((result) => {
             console.log(result)
         }, (error) => {
             console.log(error)
         });
-
+        document.getElementById("confirmation-message").textContent =`Thanks for your message! We'll get back to you as soon as we can.`
         setName('');
         setEmail('');
         setMessage('');
+    }
+
+    const handleSetMessage = (e) => {
+        setMessage(e.target.value);
+        document.getElementById("confirmation-message").textContent = ' ';
     }
 
 
@@ -70,20 +73,19 @@ const ContactUs = () => {
                         <Col md={6}>
                             <Form.Group>
                                 <Form.Label type="text" name="message">Message: </Form.Label>
-                                <Form.Control name="message" as="textarea" value={message} onChange={e => setMessage(e.target.value)}></Form.Control>
+                                <Form.Control name="message" as="textarea" value={message} onChange={e => handleSetMessage(e)}></Form.Control>
                             </Form.Group>
                         </Col>
                         <Col md={3}></Col>
                     </Row>
                     <Row>
-                        <Col md={4}></Col>
-                        <Col md={4}>
-                            <input type="submit" value="Send us a message"></input>
+                        <Col md={3}></Col>
+                        <Col md={6}>
+                            <input className="send-message-button" type="submit" value="Send us a message"></input>
+                            <p><em><strong><div id="confirmation-message"> </div></strong></em></p>
                         </Col>
-                        <Col md={4}></Col>
-                        
+                        <Col md={3}></Col>
                     </Row>
-                
                 </Form>                 
                 
             </Jumbotron>

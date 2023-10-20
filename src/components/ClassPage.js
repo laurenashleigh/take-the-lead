@@ -3,7 +3,6 @@ import NavSideBarClass from './NavSideBarClass';
 import {Container, Row, Col} from 'react-bootstrap';
 import AboutClass from '../components/AboutClass';
 import Footer from '../components/Footer';
-import GoogleCalendar from './GoogleCalendar';
 import ScrollToTop from './ScrollToTop';
 
 const ClassPage = () => {
@@ -11,19 +10,10 @@ const ClassPage = () => {
         <div>
             <Container fluid>
                 <Row>
-                <Col lg={1}></Col>
-                    <Col lg={10}>
-                    <h1 className="classes-header">Classes We Offer</h1>  
-                    </Col>
-                    <Col lg={1}></Col> 
-                </Row>
-                <Row>
                     <Col lg={1}></Col>
-                    <Col lg={10}>
-                    <hr className="line-break"/>
-                    <p>Book a class by choosing the event in our calendar then filling in <a style={{color: '#25B8C6', textDecoration: 'underline'}} href="/#contact-us">our contact form</a> to reserve a place. <br/>Or simply have a browse...</p>
-                    <GoogleCalendar id="google-calendar"/>   
-                    </Col>
+                        <Col lg={10}>
+                            <h1 className="classes-header">Classes We Offer</h1>  
+                        </Col>
                     <Col lg={1}></Col> 
                 </Row>
                 <Row>
