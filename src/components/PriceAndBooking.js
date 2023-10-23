@@ -19,7 +19,7 @@ const PriceAndBooking = () => {
             <tbody>
                 <tr>
                     <td>Adult 1hr classes</td>
-                    <td>£6.50 (From January 2024 -  Per person per night £7.50 single class | £13 for two classes | £18 for three classes)</td>
+                    <td><strong>£6.50</strong> <em>(From January 2024 -  Per person per night £7.50 single class | £13 for two classes | £18 for three classes)</em></td>
                 </tr>
                 <tr>
                     <td>Children's classes</td>
@@ -31,19 +31,19 @@ const PriceAndBooking = () => {
                 </tr>
                 <tr>
                     <td>Improvers class (90min)</td>
-                    <td>£10</td>
+                    <td><strong>£10</strong></td>
                 </tr>
                 <tr>
                     <td>Medal Class</td>
-                    <td>£6.50, 1hr | £9, 90min (From January 2024 - £7.5, 1hr | £10, 90min)</td>
+                    <td><strong>£6.50</strong>, 1hr | £9, 90min <em>(From January 2024 - £7.5, 1hr | £10, 90min)</em></td>
                 </tr>
                 <tr>
                     <td>Workshop (2hrs)</td>
-                    <td>£15.00 | £25 per couple (From January 2024 - per person £18 | per couple £30)</td>
+                    <td><strong>£15</strong> | <strong>£25</strong> per couple <em>(From January 2024 - per person £18 | per couple £30)</em></td>
                 </tr>
                 <tr>
                     <td>Workshop (3hrs)</td>
-                    <td>£20.00 (£35 per couple)</td>
+                    <td><strong>£20</strong> | <strong>£35</strong> per couple <em>(From January 2024 - per person £25 | per couple £40)</em></td>
                 </tr>
                 <tr>
                     <td>Tea dance</td>
@@ -51,11 +51,11 @@ const PriceAndBooking = () => {
                 </tr>
                 <tr>
                     <td>Private lesson (1hr)</td>
-                    <td>£40 (£42 from Jan 2024)</td>
+                    <td><strong>£40</strong> <em>(From January 2024 - £42)</em></td>
                 </tr>
                 <tr>
                     <td>Jive Class</td>
-                    <td>£6.50, 1hr | £10, 90min (From January 2024 - £7.5, 1hr | £10, 90min)</td>
+                    <td><strong>£6.50</strong>, 1hr | <strong>£10</strong>, 90min <em>(From January 2024 - £7.5, 1hr | £10, 90min)</em></td>
                 </tr>
                 <tr>
                     <td>Music/ tuition for events</td>

@@ -29,7 +29,7 @@ The upbeat melodies that quickstep is danced to make it suitable for both formal
             </Row>
             <hr className="line-break"/>  
             <Row id="foxtrot">
-                <h4 className="class-title">FoxTrot</h4>
+                <h4 className="class-title">Foxtrot</h4>
                 <p className="class-description">This dance is a smooth and progressive dance characterised by a continuous flowing movement around the dance floor.  It is most often danced to big band music. Developed in the early 1900’s it remains popular today.</p>
             </Row>
             <hr className="line-break"/>
